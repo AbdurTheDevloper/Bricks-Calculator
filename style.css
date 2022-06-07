@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+
+header{
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(107, 48, 146);
+}
+header h1{
+    font-style: italic;
+    font-weight: 600;
+    cursor: progress;
+}
+
+.hero {
+    width: 400px;
+    padding: 20px;
+    background-color: rosybrown;
+    margin: 40px auto;
+}
+.hero input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button {
+    border: 0;
+    outline: none;
+    padding: 5px 30px;
+    border-radius: 7px;
+    background-color: #e1dbef;
+    color: #4130ab;
+    font-size: 25px;
+    font-style: italic;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: yellowgreen;
+}
+
+#reset-btn{
+    float: right;
+    background-color: tomato;
+    padding: 3px 10px;
+    color: white;
+}
+#reset-btn:hover{
+    background-color: red;
+}
+
+
+.output-area{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    margin-top: 25px;
+    color: white;
+}
+.output-area span{
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer h5{
+    font-size: 18px;
+    font-style: italic;
+}
+.footer a{
+    transition: .5s;
+}
+.footer a:hover{
+    letter-spacing: 1.1px;
+}
+.footer-two{
+    margin-top: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .hero {
+        width: 90%;
+        padding: 20px;
+        background-color: rosybrown;
+        margin: 40px auto;
+    }
+    button {
+        padding: 5px 20px;
+    }
+}
